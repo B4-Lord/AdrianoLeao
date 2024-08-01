@@ -1,0 +1,254 @@
+@media (max-width: 1280px) {
+    
+    .navigation-bar {
+        justify-content: center;
+        padding-right: 0px;
+    }  
+
+    .text-container {
+        padding-left: 120px;
+    }
+
+    .image-container {
+            padding-right: 90px;
+    }
+
+    .sobremim {
+        padding-top: 130px;
+    }
+
+   .sobremim {
+
+        & p {
+            font-size: 30px;
+            margin-left: 150px;
+            margin-right: 150px;
+        }
+    }
+    
+    .contatos {
+        
+        & p {
+        font-size: 22px;
+        padding-left: 120px;
+        padding-right: 120px;
+        padding-bottom: 60px;
+        }
+    }    
+}
+  
+
+
+@media (max-width: 1024px) {
+    
+    .text-container {
+        padding-left: 140px;
+
+        & #ola {
+            font-size: 30px;
+        }
+    
+        & #nome {
+            font-size: 43px;
+        }
+    
+        & #webdeveloper {
+            font-size: 23px;
+        }
+    }
+
+    .image-container {
+        padding-right: 120px;
+    
+        & img {
+            width: 300px; 
+        }
+    }
+    
+    .sobremim {
+        padding-top: 100px;
+    
+        & p {
+            font-size: 27x;
+            margin-left: 150px;
+            margin-right: 150px;
+        }
+        
+    }
+}
+
+@media (max-width: 860px) { 
+
+    .container {
+        gap: 0px;   
+    }
+
+    .text-container {
+        padding-left: 80px;
+        padding-top: 60px;
+        
+        & #ola {
+            font-size: 37px;
+            margin-bottom: 14px;
+        }
+    
+        & #nome {
+            color: var(--1braco);
+            font-size: 50px;
+            margin-bottom: 14px;
+        }
+    
+        & #webdeveloper {
+            color: var(--1roxo);
+            font-size: 30px;
+        }
+    } 
+} 
+
+@media (max-width:425px) {
+
+    .navigation-bar {
+        display: flex; 
+        justify-content: center;
+        gap: 35px;
+        width: 98%;
+        padding-top: 20px;
+        
+        & .nav-option {
+            font-size: 19px;
+        }
+    
+    } 
+
+    .container {
+        display: grid;
+        grid-template-areas:"text""image";
+        gap: 0px;
+        display: inline;
+        flex-direction: row; 
+        justify-content: space-between;
+      }
+    
+    .text-container {
+        grid-area: text;
+      }
+    
+    .image-container {
+        grid-area: image;
+      }    
+
+    .image-container {
+        
+        display: flex;
+        padding-right: 0px;
+        padding-top: 0px;
+        justify-content: center;
+    
+        & img {
+            width: 230px; 
+        }
+    }
+
+    .conhecimento {
+        
+        & #line {
+            flex-direction: column; 
+        }
+
+        &.box {
+            width: 100%;
+        }
+    }
+
+    .text-container {
+        padding-left: 0px;
+        padding-top: 80px;
+        text-align: center;
+
+        & #ola {
+            font-size: 27px;
+            margin-bottom: 10px;
+        }
+    
+        & #nome {
+            font-size: 40px;
+            margin-bottom: 10px;
+        }
+    
+        & #webdeveloper {
+            font-size: 20px;
+            margin-bottom: 30px;
+        }
+    }
+
+    .sobremim {
+        padding-top: 80px;
+
+        & h3 {
+            font-size: 40px;
+        }
+
+        & p {
+            font-size: 27px;
+            margin-left: 20px;
+            margin-right: 20px;
+        }
+    }
+
+    .conhecimento {
+        padding-top: 80px;
+    
+        & h3 {
+            font-size: 40px;
+        }
+
+        & .container {
+            display: flex;
+            justify-content: center;
+        }
+    
+        & #line{
+            display: flex;
+         }
+    
+        & .box {
+            width: 150px; 
+            height: 150px; 
+        }
+    
+        #html-box {
+            height: 135px;
+            width: 140px;
+            display: flex;
+            align-items: center;
+        }
+    
+        #css-box{
+            height: 170px;
+            width: 170px;
+            
+        }
+    
+        #js-box{
+            height: 100px;
+            width: 130px;
+            
+        } 
+    }
+    
+    .contatos {
+        padding-top: 80px;
+        padding-bottom: 40px;
+        
+        & h1 {
+            font-size: 45px;
+        }
+
+        /* & p {
+        } */
+    }
+} 
+    
+
+     
+
