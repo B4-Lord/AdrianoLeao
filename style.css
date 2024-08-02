@@ -13,6 +13,7 @@
 }
 
 html {
+    scrollbar-color: var(--1roxo);
     scroll-behavior: smooth;
 }
 
