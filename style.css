@@ -1,20 +1,9 @@
+/* ----- GERAIS ----- */
+
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-}
-
-html {
-    scroll-behavior: smooth;
-}
-
-/* CLASSE TITULO 1 */
-
-.padrao1 {
-    text-align: center;
-    font-size: 50px;
-    padding-bottom: 40px;
-    color: #6f00ff;
 }
 
 :root {
@@ -23,6 +12,21 @@ html {
     --1cinza: #757575;
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
+/* ----- CLASSE TITULO----- */
+
+.padrao1 {
+    text-align: center;
+    font-size: 50px;
+    padding-bottom: 40px;
+    color: #6f00ff;
+}
+
+/* ----- BODY ----- */
+
 body {
     padding: 0;
     height: 100vh;
@@ -30,6 +34,8 @@ body {
     height: 100vh;
     width: 100%;
 }
+
+/* ----- NAV ----- */
 
 .navigation-bar {
     display: flex; 
@@ -63,12 +69,16 @@ body {
 
 }
 
+/* ----- CONTAINER ----- */
+
 .container {
     gap: 30px;
     display: flex;
     flex-direction: row; 
     justify-content: space-between;    
 }
+
+/* ----- TEXT CONTAINER ----- */
 
 .text-container {
     padding-left: 180px;
@@ -92,6 +102,8 @@ body {
     }
 }
 
+/* ----- IMAGEM CONTAINER ----- */
+
 .image-container {
     padding-right: 140px;
     padding-top: 90px;
@@ -103,6 +115,8 @@ body {
         border-radius: 5px;
     }
 }
+
+/* ----- SOBRE MIM ----- */
 
 .sobremim {
     text-align: center;
@@ -119,7 +133,7 @@ body {
     
 }
 
- /* CONHECIMENTO */
+/* ----- CONHECIMENTO ----- */
 
 .conhecimento {
     padding-top: 100px;
@@ -155,7 +169,7 @@ body {
         border: 2px solid var(--1roxo);
     }
 
-    /* CONHECIMENTO/BOX/IMAGENS */
+/* ----- CONHECIMENTO/BOX/IMAGENS ----- */
 
     #html-box {
         height: 155px;
@@ -174,9 +188,9 @@ body {
         height: 120px;
         width: 150px;
     } 
-
 }
 
+/* ----- CONTATOS ----- */
 
 .contatos {
     padding-top: 100px;
@@ -189,6 +203,8 @@ body {
     padding-bottom: 60px;
     }
 }
+
+/* ----- BOTOES ----- */
 
 .botoes {
     display: flex;
@@ -241,6 +257,8 @@ body {
         border-radius: 4px;     
     }
 }
+
+/* ----- FOOTER ----- */
 
 footer {
     margin-top: 90px;

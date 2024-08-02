@@ -1,8 +1,10 @@
+/* -----TAMANHO 1280----- */
+
 @media (max-width: 1280px) {
     
     .navigation-bar {
         justify-content: center;
-        padding-right: 0px;
+        padding-right: 20px;
     }  
 
     .text-container {
@@ -13,14 +15,10 @@
             padding-right: 90px;
     }
 
-    .sobremim {
-        padding-top: 130px;
-    }
-
    .sobremim {
+    padding-top: 130px;
 
         & p {
-            font-size: 30px;
             margin-left: 150px;
             margin-right: 150px;
         }
@@ -32,12 +30,11 @@
         font-size: 22px;
         padding-left: 120px;
         padding-right: 120px;
-        padding-bottom: 60px;
         }
     }    
 }
   
-
+/* -----TAMANHO 1024px----- */
 
 @media (max-width: 1024px) {
     
@@ -77,42 +74,200 @@
     }
 }
 
+/* -----TAMANHO 860px----- */
+
 @media (max-width: 860px) { 
 
     .container {
-        gap: 0px;   
+        gap: 30px;   
     }
 
     .text-container {
         padding-left: 80px;
-        padding-top: 60px;
-        
+        padding-top: 160px;
+    }
+
+    .image-container {
+        padding-right: 100px;
+        padding-top: 90px;
+    
+        & img {
+            width: 300px; 
+        }
+    }
+
+    .botoes {
+        padding-left: 40px;
+        padding-right: 40px;
+        margin-left: 40px;
+        margin-right: 40px;
+    }
+} 
+
+/* -----TAMANHO 740px----- */
+
+@media (max-width: 740px) { 
+
+    .image-container {
+        padding-right: 70px;
+        padding-top: 70px;
+    }
+
+    .text-container {
+        padding-left: 70px;
+        padding-top: 140px;
+
         & #ola {
-            font-size: 37px;
-            margin-bottom: 14px;
+            font-size: 28px;
+            margin-bottom: 10px;
         }
     
         & #nome {
-            color: var(--1braco);
-            font-size: 50px;
-            margin-bottom: 14px;
+            font-size: 41px;
+            margin-bottom: 12px;
         }
     
         & #webdeveloper {
-            color: var(--1roxo);
-            font-size: 30px;
+            font-size: 21px;
         }
-    } 
-} 
+    }
+}
+
+/* -----TAMANHO 670px----- */
+
+@media (max-width: 670px){
+
+    .container {
+        display: grid;
+        grid-template-areas:"text""image";
+        gap: 0px;
+        display: inline;
+        flex-direction: row; 
+        justify-content: space-between;
+      }
+    
+    .text-container {
+        grid-area: text;
+      }
+    
+    .image-container {
+        grid-area: image;
+      }    
+
+    .image-container {
+        display: flex;
+        padding-right: 0px;
+        padding-top: 0px;
+        justify-content: center;
+    
+        & img {
+            width: 230px; 
+        }
+    }
+
+    .conhecimento {
+        
+        & #line {
+            flex-direction: column; 
+        }
+
+        &.box {
+            width: 100%;
+        }
+    }
+
+    .text-container {
+        padding-left: 0px;
+        padding-top: 80px;
+        text-align: center;
+
+        & #ola {
+            font-size: 27px;
+            margin-bottom: 10px;
+        }
+    
+        & #nome {
+            font-size: 40px;
+            margin-bottom: 10px;
+        }
+    
+        & #webdeveloper {
+            font-size: 20px;
+            margin-bottom: 30px;
+        }
+    }
+
+    .sobremim {
+        padding-top: 80px;
+
+        & h3 {
+            font-size: 40px;
+        }
+
+        & p {
+            font-size: 27px;
+            margin-left: 20px;
+            margin-right: 20px;
+        }
+    }
+
+    .conhecimento {
+        padding-top: 80px;
+    
+        & h3 {
+            font-size: 40px;
+        }
+    
+        & .box {
+            width: 150px; 
+            height: 150px; 
+        }
+    
+        #html-box {
+            height: 135px;
+            width: 140px;
+        }
+    
+        #css-box{
+            height: 170px;
+            width: 170px;
+            
+        }
+    
+        #js-box{
+            height: 100px;
+            width: 130px;
+            
+        } 
+    }
+    
+    .contatos {
+        padding-top: 80px;
+        padding-bottom: 40px;
+        
+        & p {
+            font-size: 22px;
+            padding-left: 100px;
+            padding-right: 100px;
+            padding-bottom: 60px;
+        }
+        
+        & h1 {
+            font-size: 45px;
+        }
+    }
+}
+
+/* -----TAMANHO 425px----- */
 
 @media (max-width:425px) {
 
     .navigation-bar {
-        display: flex; 
         justify-content: center;
-        gap: 35px;
-        width: 98%;
+        width: 100%;
         padding-top: 20px;
+        padding-right: 30px;
+        padding-left: 30px;
         
         & .nav-option {
             font-size: 19px;
@@ -138,7 +293,6 @@
       }    
 
     .image-container {
-        
         display: flex;
         padding-right: 0px;
         padding-top: 0px;
@@ -240,15 +394,33 @@
         padding-top: 80px;
         padding-bottom: 40px;
         
+        & p {
+            font-size: 22px;
+            padding-left: 100px;
+            padding-right: 100px;
+            padding-bottom: 60px;
+        }
+        
         & h1 {
             font-size: 45px;
         }
 
-        /* & p {
-        } */
     }
-} 
-    
+}
 
-     
+/* -----TAMANHO 385px----- */
 
+@media (max-width: 385px) {
+    .navigation-bar {
+        display: none; 
+    } 
+
+    .contatos {
+
+        & p {
+            padding-left: 50px;
+            padding-right: 50px;
+            padding-bottom: 20px;
+        }
+    }
+}
